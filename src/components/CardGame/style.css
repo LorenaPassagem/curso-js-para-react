@@ -3,7 +3,7 @@
     height:160px;
     background-color: var(--color-alura);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;    
     border: 2px solid var(--color-floral-white);
 }

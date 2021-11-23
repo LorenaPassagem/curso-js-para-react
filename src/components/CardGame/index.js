@@ -1,8 +1,12 @@
 import './style.css';
 
-function CardGame() {
+window.handleClick = () => {
+    console.log('foi!');
+}
+
+function CardGame() {        
  return`
-    <article class="card-game">
+    <article onclick='handleClick()' class="card-game">
         <img src="./imagens/alura-pixel.png"
     </article>
  `;
